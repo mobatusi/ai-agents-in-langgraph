@@ -1,9 +1,9 @@
 # Core dependencies for AI Agents in LangGraph lessons
-openai
+openai<2
 python-dotenv
 httpx
-langgraph
-langchain
+langgraph>=0.2.20
+langchain>=0.3.0
 langchain-openai
 langchain-community
 
@@ -13,6 +13,9 @@ duckduckgo-search
 beautifulsoup4
 requests
 pygments
+
+# Lesson 4: Persistence and Streaming
+langgraph-checkpoint-sqlite
 
 # Display and Visualization
 ipython
