@@ -2,10 +2,10 @@
 openai<2
 python-dotenv
 httpx
-langgraph>=0.2.20
-langchain>=0.3.0
-langchain-openai
-langchain-community
+langgraph==0.2.16
+langchain<0.3.0
+langchain-openai<0.2.0
+langchain-community<0.3.0
 
 # Lesson 3: Agentic Search
 tavily-python
@@ -23,3 +23,6 @@ grandalf
 
 # Optional: for graph visualization (requires Graphviz system library)
 # pygraphviz
+
+# UI
+streamlit
